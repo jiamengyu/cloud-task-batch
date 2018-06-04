@@ -1,0 +1,12 @@
+applications:
+- name: cloud-task-batch
+  path: build\libs\cloud-task-batch-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack_offline
+  instances: 1
+  memory: 1024M
+  no-route: true
+  health-check-type: process
+  services:
+  - config-server
+  - batch-repo
+  - ups-batch
