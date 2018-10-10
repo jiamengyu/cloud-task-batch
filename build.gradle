@@ -81,10 +81,10 @@ publishing {
 	        }
             if(project.version.endsWith('-SNAPSHOT')) {
 				name "itm-snapshots"
-				url "${nexusUrl}/xgz0-snapshots/"
+				url "${nexusUrl}/xyz0-snapshots/"
           	} else {
 				name "itm-releases"
-				url "${nexusUrl}/xgz0-releases/"
+				url "${nexusUrl}/xyz0-releases/"
           	}	        
 	    }
 	}    
