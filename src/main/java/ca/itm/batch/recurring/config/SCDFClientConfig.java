@@ -39,7 +39,7 @@ public class SCDFClientConfig {
 	private static final Logger LOGGER = LoggerFactory.getLogger(SCDFClientConfig.class);
 	
 	@Value("${eps.dataflow.server.url}")
-	String SCDF_SERVER_URL = "https://dataflow-server-xgz0.apps.pcf.devfg.rbc.com/";
+	String SCDF_SERVER_URL = "https://dataflow-server-xyz0.apps.pcf.dev.com/";
 	
 	@Value("${eps.dataflow.server.id}")
 	String SCDF_SERVER_USER = "taskadmin";
